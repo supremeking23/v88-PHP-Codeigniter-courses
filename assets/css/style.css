@@ -1,0 +1,12 @@
+.background {
+	background: red;
+}
+
+dt,
+dd {
+	display: inline-block;
+}
+
+p span {
+	font-weight: bold;
+}
