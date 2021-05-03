@@ -59,6 +59,7 @@ class Courses extends CI_Controller {
             $add_course = $this->course->add_course($course_details);
             if($add_course === TRUE) {
                 // echo "Course is added!";
+                $this->session->set_flashdata('course-add','<div class="alert alert-success">New course has been added successfully</div>');
                 redirect(base_url());
             }
             

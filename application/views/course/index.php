@@ -19,6 +19,7 @@
                 <?php 
                    echo $this->session->flashdata("errors");
                    echo $this->session->flashdata("course-delete");
+                   echo $this->session->flashdata("course-add");
                 ?>
                 
                 <form action="<?= base_url()?>add" method="POST">
